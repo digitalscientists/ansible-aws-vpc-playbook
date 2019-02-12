@@ -29,3 +29,7 @@ I had trouble getting latest pip packages installed on my mac, so I went the Doc
 docker build -t ansible .
 docker run -it ansible /bin/bash
 ```
+
+## Credits
+
+AWS VPC Ansible Role copied from https://github.com/infinitypp/ansible-aws-vpc-playbook
