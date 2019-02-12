@@ -1,0 +1,22 @@
+- hosts: localhost
+  connection: local
+  gather_facts: False
+
+  roles:
+    - ansible-aws-vpc-playbook
+  # tasks:
+  #   - name: Provision a set of instances
+  #     ec2:
+  #       key_name: delta
+  #       group: default
+  #       instance_type: t2.micro
+  #       image: "{{ ami_id }}"
+  #       region: us-east-1
+  #       vpc_subnet_id: subnet-9a191ded
+  #       wait: true
+  #       exact_count: 0
+  #       count_tag:
+  #         Name: Demo
+  #       instance_tags:
+  #         Name: Demo
+  #     register: ec2

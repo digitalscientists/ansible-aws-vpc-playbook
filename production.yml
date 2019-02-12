@@ -1,0 +1,23 @@
+---
+region: "us-east-2"
+
+# VPC
+vpc_cidr: 10.10.0.0/24
+vpc_name: "Production VPC3"
+
+# Subnet
+subnet_name: "Production Subnet"
+subnet_cidr: 10.10.0.0/26
+
+igw_name: "Traffic IGW"
+
+#route table name
+route_name: "Public Production"
+
+securitygroup_name: "Production Security Group"
+
+ec2_tag: "WebServer"
+
+#key storage location
+ec2_key_directory: "~/.ssh/"
+keypair_name: "delta"
